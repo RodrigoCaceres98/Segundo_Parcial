@@ -1,11 +1,5 @@
 body{
-  background-image: url(https://img.freepik.com/foto-gratis/tres-tragos-vodka-hielo-cuadro-negro-espacio-copia_255667-12704.jpg);
+  background-image: url(https://i.ytimg.com/vi/lLbBt6EvYH8/maxresdefault.jpg);
   background-size: 100%;
-}
-.frag{
-  display: flex;
-  justify-content: space-between;
-}
-#title{
-  background-color: white;
+  
 }

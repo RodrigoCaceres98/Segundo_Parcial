@@ -5,8 +5,8 @@ import { Fragment } from "react";
 const Trago = ({bebida}) => {
     return ( 
         <Fragment>
-            <img src={bebida.strDrinkThumb} width='300px' /> 
-            <h3> Nombre: {bebida.strDrink}</h3>
+            <div className=""><h3 className="text-2xl  text-white top-1.5"> Nombre: {bebida.strDrink}</h3></div>
+            <img src={bebida.strDrinkThumb} width='350px' /> 
         </Fragment>
      );
 }
