@@ -10,7 +10,6 @@ body{
     flex-direction: column;
   }   
 }
-
 #btn-menu{
   display: none;
 }
@@ -24,7 +23,7 @@ body{
   opacity: 0;
   visibility: hidden;
 }
-#btn-menu :checked ~ #container-menu{
+#btn-menu:checked ~ #container-menu{
   opacity: 1;
   visibility: visible;
 } 

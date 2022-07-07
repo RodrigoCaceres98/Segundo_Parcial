@@ -4,13 +4,11 @@ const Header = () => {
     
     return (
         <Fragment>
-            <input type="checkbox"  id="btn- " />
+            <input type="checkbox"  id="btn-menu" />
+            <label htmlFor="btn-menu" >
+                <img className="w-8 h-8 ml-2 cursor-pointer" src="https://png.pngtree.com/png-clipart/20190705/original/pngtree-menu-vector-icon-png-image_4236550.jpg" />
+            </label>
             <div id="container-menu">
-                <div id="icon-menu">
-                    <label htmlFor="btn-menu" >
-                        <img className="w-8 h-8 ml-2 cursor-pointer" src="https://png.pngtree.com/png-clipart/20190705/original/pngtree-menu-vector-icon-png-image_4236550.jpg" />
-                    </label>
-                </div>
                 <div id="cont-menu">
                     <nav>
                         <a href="https://www.recetasgratis.net/articulo-17-tragos-y-cocteles-con-vodka-faciles-72778.html">Recetas</a>
