@@ -45,7 +45,7 @@ function App() {
    
   return (
     <Fragment>
-      <Header/>
+      
       <div  id='pantalla' className='flex justify-around mt-44'>
         <div className='mt-20'>
           <Texto
